@@ -9,7 +9,7 @@ import WelcomeBackground from "./WelcomeBackground/WelcomeBackground";
 
 const Welcome = () => {
   return (
-    <Wrapper>
+    <div className="welcome">
       <WelcomeBackground />
       <h1 className="header">WELCOME TO THE META BULLIES</h1>
       <p className="info">
@@ -32,59 +32,10 @@ const Welcome = () => {
           allowFullScreen
         ></iframe>
       </div>
-    </Wrapper>
+    </div>
   );
 };
 
 export default Welcome;
 
-const Wrapper = styled.div`
-  width: 100%;
-  text-align: center;
-  padding: 0 25px;
-  position: relative;
-  height: 700px;
-  margin-top: 100px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 25px;
-
-  .header {
-    color: #fff;
-
-    @media only screen and (max-width: 655px) {
-      width: 350px;
-    }
-  }
-
-  .info {
-    color: #6c757d;
-    font-size: 1.25rem;
-    line-height: 25px;
-  }
-
-  .player {
-    margin-bottom: 50px;
-  }
-
-  .button {
-    background-color: #e62e09;
-    width: 300px;
-    height: 40px;
-    font-size: 1.25rem;
-    border-radius: 10px;
-    margin-bottom: 100px;
-
-    a {
-      color: #fff;
-      text-decoration: none;
-    }
-
-    &:hover {
-      background-color: #e62e09;
-    }
-  }
-`;
+// const Wrapper = styled.div``;
