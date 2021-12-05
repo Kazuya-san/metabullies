@@ -17,7 +17,11 @@ const Welcome = () => {
         ERC-721 bitmap BULLIES. The GENESIS - Minting Old Bully Bloodlines onto
         the Blockchain.
       </p>
-      <Button className="button" variant="contained">
+      <Button
+        className="btn"
+        style={{ backgroundColor: "#e62e09" }}
+        variant="contained"
+      >
         <a href="" target="_blank" rel="noreferrer">
           VIEW ON OPENSEA
         </a>
@@ -37,5 +41,3 @@ const Welcome = () => {
 };
 
 export default Welcome;
-
-// const Wrapper = styled.div``;
