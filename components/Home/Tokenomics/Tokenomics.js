@@ -22,7 +22,7 @@ const Tokenomics = () => {
       </h1>
       <div className="section1">
         <div className="section1-content-img">
-          <Image src="/img1.png" width={2000} height={2000} />
+          <Image src="/img1.PNG" alt="img1nulliem" width={2000} height={2000} />
         </div>
         <div className="section1-content-text">
           <p className="info">
@@ -61,7 +61,7 @@ const Tokenomics = () => {
 
       <div className="section2">
         <div className="section2-content-img">
-          <Image src="/img2.png" width={520} height={520} />
+          <Image src="/img2.PNG" alt="img2nulliem" width={520} height={520} />
         </div>
         <div className="section2-content-text">
           <p className="info">
@@ -106,15 +106,6 @@ const Tokenomics = () => {
             <br />
           </p>
         </div>
-      </div>
-      <div className="player">
-        <iframe
-          src="https://www.youtube.com/embed/VWPfzvYzJog"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
       </div>
     </div>
   );
