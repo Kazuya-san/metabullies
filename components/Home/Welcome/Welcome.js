@@ -76,7 +76,7 @@ const Wrapper = styled.div`
     height: 40px;
     font-size: 1.25rem;
     border-radius: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 
     a {
       color: #fff;
